@@ -1,0 +1,210 @@
+/* Home.css */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #eaf7f7; /* Light sea green background */
+  color: #333; /* Dark text color */
+  background-image: url("greensea.jpeg"); /* Add the path to your background image */
+  background-size: cover;
+  background-position: center;
+  width: 1024px; /* Set the width to 1024 pixels */
+  height: 100vh; /* Set the height to 1024 pixels */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  background-color: #128c7e; /* Dark sea green header background */
+  color: #fff; /* White text color */
+  padding: 10px 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+/* Home page content styles */
+.home-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.home-text {
+  text-align: center;
+  color: #fff; /* Change the text color to white */
+  font-size: 2.5em; /* Make the text bigger */
+  font-weight: 700; /* Set font weight to bold */
+  margin-top: -20px; /* Move the writing further up */
+}
+
+.world-icon {
+  font-size: 1.5em; /* Set the size of the world icon */
+  margin-left: 5px; /* Add some spacing between text and icons */
+}
+
+/* Home.css */
+.home-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.container {
+  position: relative;
+  max-width: 600px; /* Adjust the width as needed */
+  padding: 20px;
+  text-align: center;
+}
+
+.badge {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #2c3e50;
+  padding: 2rem 1rem; /* Adjust the padding values to make it smaller */
+  border-radius: 10px; /* Adjust the border radius accordingly */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border: 4px solid #128c7e;
+  z-index: -1;
+}
+
+h2 {
+  font-size: 2em;
+  position: relative;
+  z-index: 1;
+  color: #ecf0f1; /* Adjust the text color */
+}
+
+p {
+  font-size: 1rem;
+  color: white;
+}
+
+/* Add these styles to your CSS */
+/* Responsive styles */
+/* Add these styles for the modal overlay when it is open */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+/* Center the modal in the middle of the screen */
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* Styles for the modal content */
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for the modal header */
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Styles for the modal close button */
+.close {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* Styles for the modal title */
+.modal-title {
+  font-size: 18px;
+  margin: 0;
+}
+
+/* Styles for the modal body */
+.modal-body {
+  padding: 10px 0;
+}
+
+/* Styles for the modal footer */
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 10px;
+}
+
+/* Styles for the modal close button in the footer */
+.modal-footer .btn {
+  cursor: pointer;
+}
+
+/* Apply styles when the modal is open */
+.modal.show {
+  display: block;
+}
+
+@media only and (min-width: 1024px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+@media only and (min-width: 768px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+@media only and (min-width: 1024px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+@media only and (min-width: 360px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+@media only and (min-width: 430px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+@media only and (min-width: 414px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+@media only and (min-width: 320px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+/*# sourceMappingURL=Home.css.map */

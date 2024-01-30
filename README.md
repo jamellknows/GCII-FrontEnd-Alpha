@@ -1,71 +1,31 @@
-# Getting Started with Create React App
+GCII - Green Sea AI (Alpha Version)
+Welcome to the alpha version of GCII's website! 🌊🤖
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+GCII, which stands for Green Sea AI, is an innovative company focusing on artificial intelligence. This website is currently in its early alpha stage, offering a glimpse into the exciting world of AI where technology meets tranquility.
 
-In the project directory, you can run:
+About GCII
+At GCII, we are passionate about harnessing the power of AI to create solutions that not only push technological boundaries but also bring a sense of calmness and warmth to the digital landscape. Our name, Green Sea, represents the fusion of our founders' names and embodies attributes that reflect the serenity of a calm sea.
 
-### `npm start`
+Key Features
+Innovative AI Solutions: Explore cutting-edge AI solutions designed to make a positive impact on various industries.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Calming Design: Our website's design is crafted to reflect the calming and warm attributes of a Green Sea. Expect a user-friendly and aesthetically pleasing experience.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Alpha Version: Please note that this is an early alpha version. We are actively working on enhancing features, adding content, and improving the overall user experience.
 
-### `npm test`
+Getting Started
+To experience the alpha version of GCII's website, simply visit GCII - Green Sea AI. We invite you to explore the different sections and get a sneak peek into our vision for the future of AI.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Feedback
+As we are in the early stages of development, your feedback is crucial to our growth. If you encounter any issues, have suggestions, or simply want to share your thoughts, please reach out to us at feedback@gcii.com.
 
-### `npm run build`
+Connect With Us
+Stay updated on GCII's journey by following us on social media:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Twitter
+LinkedIn
+Instagram
+Thank you for being part of our alpha release. We look forward to shaping the future of AI together!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# GCII-FrontEnd-Alpha
+GCII - Green Sea AI Team

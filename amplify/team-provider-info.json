@@ -10,6 +10,14 @@
       "StackName": "amplify-spa-dev-45656",
       "StackId": "arn:aws:cloudformation:eu-west-1:849508659063:stack/amplify-spa-dev-45656/023e2f00-bf2c-11ee-a3a8-0a15ab58b95f",
       "AmplifyAppId": "dicr0yxp3cdgb"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "dicr0yxp3cdgb",
+          "type": "cicd"
+        }
+      }
     }
   }
 }

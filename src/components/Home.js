@@ -69,11 +69,16 @@ const Home = () => {
     setIsModalOpen(false);
   };
 
+
+  const pdfOpenModal = () => {
+    document.getElementById('my-modal').style.display = 'block';
+
+  }
+
   const openModalPDF = (pdfUrl) => {
     setPdfUrl(pdfUrl);
-    // setIsModalOpen(false);
-    setPDFModalOpen(true);
-
+    setIsModalOpen(false);
+    pdfOpenModal()
   };
 
   const closeModalPDF = () => {
@@ -81,6 +86,21 @@ const Home = () => {
     setIsModalOpen(true);
 
   };
+
+  
+
+  const pdfCloseModal = () => {
+    document.getElementById('my-modal').style.display = 'none';
+
+  }
+
+  window.onclick = function(event) {
+    var modal = document.getElementById('my-modal');
+    if(event.target === modal)
+    {
+      modal.style.display ='none'
+    }   
+    }
 ;
 
   
@@ -103,7 +123,7 @@ const Home = () => {
         <Carousel.Item>
           <img className="d-block w-100" src={henonImg} alt="First slide" onClick={() => openModalPDF(henonPDF)}/>
           <button onClick={() => openModalPDF(henonPDF)}>Open PDF Henon Encoding</button>
-          <PDFModal isOpen={isPDFModalOpen} onClose={closeModalPDF} pdfUrl={henonPDF} />
+          <PDFModal isOpen={openModalPDF} onClose={pdfCloseModal} id ="my-modal" pdfUrl={henonPDF} />
         </Carousel.Item>
         <Carousel.Item>
           <img className="d-block w-100" src={customLayerImg} alt="Second slide" onClick={() => openModalPDF(customLayerPDF)} />
